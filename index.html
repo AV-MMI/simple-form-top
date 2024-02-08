@@ -10,7 +10,7 @@
     <main class="v-c-c-flex">
         <div class="background-form">
             <div class="form-container">
-                <form action="" id="my-form">
+                <form action="" id="my-form" novalidate>
                     <div class="input-cont v-flex" id="email-cont">
                         <label for="email-input">Email</label>
                         <input type="text" id="email-input" placeholder="Enter email">
@@ -31,19 +31,19 @@
 
                     <div class="input-cont v-flex" id="psswd-cont">
                         <label for="psswd-input">Password</label>
-                        <input type="text" id="pssdw-input" placeholder="Enter password">
+                        <input type="text" id="psswd-input" placeholder="Enter password">
                         <span aria-role="polite">assistive text</span>
                     </div>
 
                     <div class="input-cont v-flex" id="psswd-val-cont">
-                        <label for="psswd-val">Confirm Password</label>
-                        <input type="text" id="psswd-val" placeholder="Confirm password">
+                        <label for="psswd-confirm-input">Confirm Password</label>
+                        <input type="text" id="psswd-confirm-input" placeholder="Confirm password">
                         <span aria-role="polite" class="error-msg">assistive text</span>
                     </div>
                 </form>
                 <div class="btn-cont h-space-b-flex">
-                    <button form="my-form" id="submit-data-btn" class="form-btn">clear data</button>
-                    <button form="my-form" id="clear-data-btn" class="form-btn">submit data</button>
+                    <button form="my-form" id="clear-data-btn" class="form-btn">clear data</button>
+                    <button form="my-form" id="submit-data-btn" class="form-btn">submit data</button>
                 </div>
             </div>
         </div>

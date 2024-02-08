@@ -16,6 +16,18 @@ main {
     margin: 0px;
 }
 
+input:invalid {
+    border: 2px solid red !important;
+    background-color: rgba(255, 0, 0, 0.3);
+
+
+}
+
+input:valid {
+    border: 2px solid greenyellow !important;
+    background-color: rgba(0, 255, 0, 0.3);
+}
+
 /* Flex classes*/
 .v-flex {
     display: flex;
